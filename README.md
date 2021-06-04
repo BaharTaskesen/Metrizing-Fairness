@@ -30,6 +30,11 @@ To install requirements:
 ```
 pip install -r requirements.txt
 ```
+DCCP package is required for one of the methods that we compare our classifier.
+To install the most updated DCCP, please see
+```
+https://github.com/cvxgrp/dccp/
+```
 ## Training
 To train the models in the paper, run this command:
 ```
