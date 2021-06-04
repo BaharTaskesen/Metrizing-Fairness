@@ -36,9 +36,9 @@ python ./src/run.py
 ```
 
 ## Numerical results
-The result shared in Figure 1, Table 3 are saved under ./results folder. Please refer to ./results-saved/zafar for results of Zafar et al., ./results-saved/FKDE for results of Cho et al., ./results-saved/NN_MMD_sinkhorn for results of Oneta et al. and ./results-saved/NN_energy for results of MFL (ours).
+The result shared in Figure 1, Table 3 are saved under ./results-save.rar. To reach out the training details and the saved results refer to ./results-saved/zafar for results of Zafar et al., ./results-saved/FKDE for results of Cho et al., ./results-saved/NN_MMD_sinkhorn for results of Oneta et al. and ./results-saved/NN_energy for results of MFL (ours).
 
-Plots in Figure 1 and results in Table 3 are obtained by ./prepare_results.ipynb. For each dataset please change the dataset variable to the desired.
+Plots in Figure 1 and results in Table 3 are obtained by ./prepare_results.ipynb. For each dataset please change the _dataset_ variable to the desired data name (e.g. 'Drug', 'Compas', 'CommunitiesCrimeClassification', 'Adult').
 
 
 
