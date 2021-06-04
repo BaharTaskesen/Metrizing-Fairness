@@ -19,6 +19,7 @@ We study supervised learning problems for predicting properties of individuals t
 
 
 ## Quick Start
+The codes in this repository are implemented in Python 3.
 To clone the repository:
 ```
 git clone https://github.com/Metric-Fairness-Authors/Metrizing-Fairness
