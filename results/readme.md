@@ -25,7 +25,7 @@ The following tables summarize the AUC values (± standard deviation) for logist
 | Zafar et al. | 0.660±0.039  | 0.36sec |
 | MFL Logistic Regression| 0.814±0.008 | 5.85sec |
 
-![Results LR Drug](Drug_logistic.png =600x400)
+![Results LR Drug](Drug_logistic.png)
 
 ### Neural Network Model:
 
