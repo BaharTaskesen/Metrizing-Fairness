@@ -15,7 +15,7 @@ We provide results for the Drugs and Communities and Crime datasets. The pareto 
 
 
 
-## Results on Drug Dataset:
+## Results on Drug Dataset (3 Replications):
 The following tables summarize the AUC values (± standard deviation) for logistic regression and neural network based models.
 
 ### Logistic Regression Model:
@@ -37,7 +37,7 @@ The following tables summarize the AUC values (± standard deviation) for logist
 
 ![Results NN Drug](Drug_NN.png)
 
-## Results on Communities and Crime Dataset:
+## Results on Communities and Crime Dataset (2 Replications):
 
 ### Logistic Regression Model:
 
