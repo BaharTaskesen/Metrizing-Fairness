@@ -17,21 +17,22 @@ We provide results for the Drugs and Communities and Crime datasets. The pareto 
 ## AUC
 
 ### AUC results on Drug Dataset:
+The following tables summarize the AUC values (± standard deviation) for logistic regression and neural network based models.
 
 Logistic Regression Model:
 
 | Method       | AUC          | Time      |
 |--------------|--------------|-----------|
-| Zafar et al. | 0.660(0.039) | 0.36sec |
-| MFL Logistic Regression| 0.814(0.008) | 5.85sec |
+| Zafar et al. | 0.660±0.039  | 0.36sec |
+| MFL Logistic Regression| 0.814±0.008 | 5.85sec |
 
 Neural Network Model:
 
 | Method       | AUC          | Time      |
 |--------------|--------------|-----------|
-| Cho et al.   | 0.712(0.017) | 10.70sec  |
-| Oneto et al. | 0.824(0.010) | 479.11sec |
-| MFL NN       | 0.819(0.010) | 6.76sec   |
+| Cho et al.   | 0.712±0.017  | 10.70sec  |
+| Oneto et al. | 0.824±0.010 | 479.11sec |
+| MFL NN       | 0.819±0.010 | 6.76sec   |
 
 ### AUC results on Communities and Crime Dataset:
 
@@ -39,13 +40,13 @@ Logistic Regression Model:
 
 | Method       | AUC          | Time      |
 |--------------|--------------|-----------|
-| Zafar et al. | 0.794(0.003) | 84.51sec |
-| MFL Logistic Regression| 0.824(0.004) | 8.66sec  |
+| Zafar et al. | 0.794±0.003 | 84.51sec |
+| MFL Logistic Regression| 0.824±0.004 | 8.66sec  |
 
 Neural Network Model:
 
 | Method       | AUC          | Time      |
 |--------------|--------------|-----------|
-| Cho et al.   | 0.470(0.028) | 13.87sec  |
-| Oneto et al. | 0.825(0.003) | 272.13sec |
-| MFL NN       | 0.832(0.006) | 12.05sec  |
+| Cho et al.   | 0.470±0.028 | 13.87sec  |
+| Oneto et al. | 0.825±0.003 | 272.13sec |
+| MFL NN       | 0.832±0.006 | 12.05sec  |
