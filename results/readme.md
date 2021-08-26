@@ -15,7 +15,7 @@ We provide results for the Drugs and Communities and Crime datasets. The pareto 
 
 
 
-## Results on Drug Dataset (3 Replications):
+## Results on Drug Dataset (3 Seeds):
 The following tables summarize the AUC values (± standard deviation) for logistic regression and neural network based models.
 
 ### Logistic Regression Model:
@@ -23,7 +23,7 @@ The following tables summarize the AUC values (± standard deviation) for logist
 | Method       | AUC          | Time      |
 |--------------|--------------|-----------|
 | Zafar et al. | 0.660±0.039  | 0.36sec |
-| MFL Logistic Regression| 0.814±0.008 | 5.85sec |
+| MFL          | 0.814±0.008 | 5.85sec |
 
 ![Results LR Drug](Drug_logistic.png)
 
@@ -33,18 +33,18 @@ The following tables summarize the AUC values (± standard deviation) for logist
 |--------------|--------------|-----------|
 | Cho et al.   | 0.712±0.017  | 10.70sec  |
 | Oneto et al. | 0.824±0.010 | 479.11sec |
-| MFL NN       | 0.819±0.010 | 6.76sec   |
+| MFL          | 0.819±0.010 | 6.76sec   |
 
 ![Results NN Drug](Drug_NN.png)
 
-## Results on Communities and Crime Dataset (2 Replications):
+## Results on Communities and Crime Dataset (2 Seeds):
 
 ### Logistic Regression Model:
 
 | Method       | AUC          | Time      |
 |--------------|--------------|-----------|
 | Zafar et al. | 0.794±0.003 | 84.51sec |
-| MFL Logistic Regression| 0.824±0.004 | 8.66sec  |
+| MFL          | 0.824±0.004 | 8.66sec  |
 
 ![Results LR CC](CommunitiesCrimeClassification_logistic.png)
 
@@ -54,6 +54,6 @@ The following tables summarize the AUC values (± standard deviation) for logist
 |--------------|--------------|-----------|
 | Cho et al.   | 0.470±0.028 | 13.87sec  |
 | Oneto et al. | 0.825±0.003 | 272.13sec |
-| MFL NN       | 0.832±0.006 | 12.05sec  |
+| MFL          | 0.832±0.006 | 12.05sec  |
 
 ![Results LR CC](CommunitiesCrimeClassification_NN.png)
