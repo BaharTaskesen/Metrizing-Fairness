@@ -25,7 +25,7 @@ The following tables summarize the AUC values (± standard deviation) for logist
 | Zafar et al. | 0.660±0.039  | 0.36sec |
 | MFL Logistic Regression| 0.814±0.008 | 5.85sec |
 
-![Results LR Drug](Drug_logistic.pdf)
+![Results LR Drug](https://github.com/Metric-Fairness-Authors/Metrizing-Fairness/blob/main/results/Drug_logistic.pdf?raw=true)
 
 ### Neural Network Model:
 
@@ -35,7 +35,7 @@ The following tables summarize the AUC values (± standard deviation) for logist
 | Oneto et al. | 0.824±0.010 | 479.11sec |
 | MFL NN       | 0.819±0.010 | 6.76sec   |
 
-![Results NN Drug](Drug_NN.pdf)
+![Results NN Drug](https://github.com/Metric-Fairness-Authors/Metrizing-Fairness/blob/main/results/Drug_NN.pdf?raw=true)
 
 ## Results on Communities and Crime Dataset:
 
@@ -46,7 +46,7 @@ The following tables summarize the AUC values (± standard deviation) for logist
 | Zafar et al. | 0.794±0.003 | 84.51sec |
 | MFL Logistic Regression| 0.824±0.004 | 8.66sec  |
 
-![Results LR CC](CommunitiesCrimeClassification_logistic.pdf)
+![Results LR CC](https://github.com/Metric-Fairness-Authors/Metrizing-Fairness/blob/main/results/CommunitiesCrimeClassification_logistic.pdf?raw=true)
 
 ### Neural Network Model:
 
@@ -56,4 +56,4 @@ The following tables summarize the AUC values (± standard deviation) for logist
 | Oneto et al. | 0.825±0.003 | 272.13sec |
 | MFL NN       | 0.832±0.006 | 12.05sec  |
 
-![Results LR CC](CommunitiesCrimeClassification_NN.pdf)
+![Results LR CC](https://github.com/Metric-Fairness-Authors/Metrizing-Fairness/blob/main/results/CommunitiesCrimeClassification_NN.pdf?raw=true)
